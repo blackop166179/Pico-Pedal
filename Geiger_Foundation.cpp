@@ -9,6 +9,6 @@ float Geiger(float lambda){
     float P = dis(gen);
     return -log(1-P)/lambda;
 }
-void main (){
+int main (){
     std::cout << Geiger(4.0) << std::endl;
 }
